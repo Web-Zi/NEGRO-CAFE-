@@ -331,67 +331,78 @@ window.NEGRO_MENU = [
         "tea",
         "شاي / شاي نكهات",
         "Tea / Flavoured Tea",
-        15
+        15,
+        "assets/tea.png"
       ],
       [
         "herbs",
         "أعشاب",
         "Herbal Drink",
-        15
+        15,
+        "assets/herbs.png"
       ],
       [
         "ginger",
         "ينسون / زنجبيل",
         "Anise / Ginger",
-        40
+        40,
+        "assets/ginger.png"
       ],
       [
         "hot-cider",
         "هوت سيدر",
         "Hot Cider",
-        40
+        40,
+        "assets/hot-cider.png"
       ],
       [
         "pomegranate",
         "هوت رمان قرفة",
         "Hot Pomegranate Cinnamon",
-        40
+        40,
+        "assets/pomegranate.png"
       ],
       [
         "hot-chocolate",
         "هوت شوكولاتة",
         "Hot Chocolate",
-        25
+        25,
+        "assets/hot-chocolate.png"
       ],
       [
         "sahlab",
         "سحلب كلاسيك",
         "Classic Sahlab",
-        45
+        45,
+        "assets/sahlab.png"
       ],
       [
         "sahlab-nuts",
         "سحلب مكسرات",
         "Nuts Sahlab",
-        65
+        65,
+        "assets/sahlab-nuts.png"
       ],
       [
         "sahlab-lotus",
         "سحلب بستاشيو / لوتس",
         "Pistachio / Lotus Sahlab",
-        75
+        75,
+        "assets/sahlab-lotus.png"
       ],
       [
         "hot-lotus",
         "هوت لوتس",
         "Hot Lotus",
-        65
+        65,
+        "assets/hot-lotus.png"
       ],
       [
         "hot-pistachio",
         "هوت بستاشيو",
         "Hot Pistachio",
-        75
+        75,
+        "assets/hot-pistachio.png"
       ]
     ]
   },
@@ -461,55 +472,64 @@ window.NEGRO_MENU = [
         "jelly-cola",
         "جيلي كولا",
         "Jelly Cola",
-        40
+        40,
+        "assets/jelly-cola.png"
       ],
       [
         "blue-lemon",
         "بلوفليمز ليمون",
         "Blue Flames Lemon",
-        40
+        40,
+        "assets/blue-lemon.png"
       ],
       [
         "lemon-blue",
         "بلوبيري ليمون",
         "Blueberry Lemon",
-        40
+        40,
+        "assets/lemon-blue.png"
       ],
       [
         "kiwi-mint",
         "كيوي ليمون نعناع",
         "Kiwi Lemon Mint",
-        40
+        40,
+        "assets/kiwi-mint.png"
       ],
       [
         "blueberry-soda",
         "بلوبيري",
         "Blueberry",
-        40
+        40,
+        "assets/blueberry-soda.png"
       ],
       [
         "apple-mint",
         "تفاح نعناع",
         "Apple Mint",
-        40
+        40,
+        "assets/apple-mint.png"
       ],
       [
         "mango-apple",
         "مانجو تفاح",
         "Mango Apple",
-        40
+        40,
+        "assets/mango-apple.png"
       ],
       [
         "ice-tea",
         "آيس تي",
         "Iced Tea",
-        50
+        50,
+        "assets/ice-tea.png"
       ],
       [
         "red-bull",
         "ريد بول",
         "Red Bull",
-        80
+        80,
+        "assets/red-bull.png"
       ]
     ]
   },
