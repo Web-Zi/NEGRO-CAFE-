@@ -26,7 +26,7 @@
             text-align: center;
             padding: 20px 0;
             border-bottom: 2px solid var(--accent-color);
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         header h1 {
@@ -35,8 +35,43 @@
             font-size: 2.5rem;
         }
 
+        /* Category Filter Navigation Bar */
+        .category-nav {
+            position: sticky;
+            top: 0;
+            background-color: var(--bg-color);
+            padding: 10px 0;
+            z-index: 100;
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            white-space: nowrap;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #333;
+            scrollbar-width: thin;
+        }
+
+        .category-btn {
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            border: 1px solid #333;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'Tajawal', sans-serif;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .category-btn:hover, .category-btn.active {
+            background-color: var(--accent-color);
+            color: #000;
+            border-color: var(--accent-color);
+        }
+
         .category {
             margin-bottom: 40px;
+            scroll-margin-top: 70px;
         }
 
         .category-title {
@@ -103,17 +138,34 @@
         <p>Menu / القائمة</p>
     </header>
 
+    <!-- Category System Navigation -->
+    <nav class="category-nav" id="category-nav"></nav>
+
     <main id="menu-container"></main>
 
     <script src="assets/menu-data.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const container = document.getElementById("menu-container");
+            const nav = document.getElementById("category-nav");
             if (!window.NEGRO_MENU) return;
 
-            window.NEGRO_MENU.forEach(category => {
+            window.NEGRO_MENU.forEach((category, index) => {
+                // 1. Create Navigation Button for each category
+                const navBtn = document.createElement("button");
+                navBtn.className = `category-btn ${index === 0 ? 'active' : ''}`;
+                navBtn.textContent = category.ar;
+                navBtn.onclick = () => {
+                    document.querySelectorAll('.category-btn').forEach(btn => btn.classList.remove('active'));
+                    navBtn.classList.add('active');
+                    document.getElementById(`cat-${category.id}`).scrollIntoView({ behavior: 'smooth' });
+                };
+                nav.appendChild(navBtn);
+
+                // 2. Create Category Section
                 const catSection = document.createElement("section");
                 catSection.className = "category";
+                catSection.id = `cat-${category.id}`;
 
                 const title = document.createElement("h2");
                 title.className = "category-title";
