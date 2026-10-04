@@ -625,19 +625,22 @@ window.NEGRO_MENU = [
         "croissant",
         "كرواسون",
         "Croissant",
-        45
+        45,
+        "assets/croissant.png"
       ],
       [
         "sandwich",
         "ساندوتش",
         "Sandwich",
-        35
+        35,
+        "assets/sandwich.png"
       ],
       [
         "toast",
         "توست",
         "Toast",
-        50
+        50,
+        "assets/toast.png"
       ]
     ]
   },
@@ -652,14 +655,16 @@ window.NEGRO_MENU = [
         "كنافة نابلسية جبنة",
         "Nabulsi Kunafa with Cheese",
         80,
-        150
+        150,
+        "assets/kunafa-cheese.png"
       ],
       [
         "kunafa-cream",
         "كنافة كريمة",
         "Kunafa with Cream",
         50,
-        90
+        90,
+        "assets/kunafa-cream.png"
       ]
     ]
   },
@@ -673,31 +678,36 @@ window.NEGRO_MENU = [
         "flavour-extra",
         "فليفر / ويب كريم",
         "Flavour / Whipped Cream",
-        10
+        10,
+        "assets/flavour-extra.png"
       ],
       [
         "extra-size",
         "حجم إضافي",
         "Size Upgrade",
-        20
+        20,
+        "assets/extra-size.png"
       ],
       [
         "nuts",
         "مكسرات",
         "Nuts",
-        25
+        25,
+        "assets/nuts.png"
       ],
       [
         "water",
         "مياه معدنية",
         "Mineral Water",
-        10
+        10,
+        "assets/water.png"
       ],
       [
         "redbull-extra",
         "ريد بول",
         "Red Bull",
-        75
+        75,
+        "assets/redbull-extra.png"
       ]
     ]
   }
