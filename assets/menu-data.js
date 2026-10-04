@@ -11,7 +11,7 @@ window.NEGRO_MENU = [
         "Espresso",
         35,
         55,
-        "assets/espresso.jpg"
+        "assets/espresso.png"
       ],
       [
         "macchiato",
@@ -19,7 +19,7 @@ window.NEGRO_MENU = [
         "Macchiato",
         35,
         55,
-        "assets/macchiato.jpg"
+        "assets/macchiato.png"
       ],
       [
         "americano",
@@ -27,70 +27,70 @@ window.NEGRO_MENU = [
         "Americano",
         40,
         55,
-        "assets/americano.jpg"
+        "assets/americano.png"
       ],
       [
         "cortado",
         "كورتادو",
         "Cortado",
         45,
-        "assets/cortado.jpg"
+        "assets/cortado.png"
       ],
       [
         "flat-white",
         "فلات وايت",
         "Flat White",
         55,
-        "assets/flat-white.jpg"
+        "assets/flat-white.png"
       ],
       [
         "latte",
         "لاتيه",
         "Latte",
         55,
-        "assets/latte.jpg"
+        "assets/latte.png"
       ],
       [
         "cappuccino",
         "كابتشينو",
         "Cappuccino",
         55,
-        "assets/cappuccino.jpg"
+        "assets/cappuccino.png"
       ],
       [
         "caramel-macchiato",
         "كراميل ميكاتو",
         "Caramel Macchiato",
         60,
-        "assets/caramel-macchiato.jpg"
+        "assets/caramel-macchiato.png"
       ],
       [
         "mocha",
         "موكا",
         "Mocha",
         60,
-        "assets/mocha.jpg"
+        "assets/mocha.png"
       ],
       [
         "extra-shot",
         "إضافة شوت إسبريسو",
         "Extra Espresso Shot",
         20,
-        "assets/extra-shot.jpg"
+        "assets/extra-shot.png"
       ],
       [
         "spanish-latte",
         "سبانيش لاتيه",
         "Spanish Latte",
         65,
-        "assets/spanish-latte.jpg"
+        "assets/spanish-latte.png"
       ],
       [
         "flavour-shot",
         "إضافة فليفر",
         "Flavour Shot",
         10,
-        "assets/flavour-extra.jpg"
+        "assets/flavour-shot.png"
       ]
     ]
   },
