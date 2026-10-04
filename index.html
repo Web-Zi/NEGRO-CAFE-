@@ -14,16 +14,22 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f7f7f7;
-      color: #333;
+      /* Coffee bean repeating pattern / textured background */
+      background-color: #121212;
+      background-image: radial-gradient(#262626 1px, transparent 1px), radial-gradient(#262626 1px, #121212 1px);
+      background-size: 40px 40px;
+      background-position: 0 0, 20px 20px;
+      color: #ffffff;
+      min-height: 100vh;
     }
 
     /* Hero Header Section */
     .hero-header {
       width: 100%;
-      background-color: #ffffff;
+      background: rgba(18, 18, 18, 0.85);
+      backdrop-filter: blur(8px);
       padding: 30px 20px 20px 20px;
-      border-bottom: 1px solid #eaeaea;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .hero-container {
@@ -48,11 +54,13 @@
       width: 100%;
       height: auto;
       object-fit: contain;
+      /* Invert black-and-white art so line art displays cleanly on dark coffee background */
+      filter: invert(1) brightness(1.2);
       transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     .hero-poster img:hover {
-      transform: scale(1.03);
+      transform: scale(1.04);
     }
 
     /* Center Logo */
@@ -62,19 +70,21 @@
     }
 
     .hero-logo {
-      max-width: 250px;
+      max-width: 260px;
       width: 100%;
       height: auto;
       object-fit: contain;
+      filter: invert(1) brightness(1.2);
     }
 
-    /* Category Nav Container */
+    /* Category Navigation Wrapper */
     .category-nav-wrapper {
-      background-color: #ffffff;
+      background: rgba(18, 18, 18, 0.95);
       position: sticky;
       top: 0;
       z-index: 100;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     }
 
     .category-nav {
@@ -92,13 +102,14 @@
     }
 
     .category-nav::-webkit-scrollbar-thumb {
-      background-color: #ccc;
+      background-color: #444;
       border-radius: 4px;
     }
 
     .category-btn {
-      background-color: #f0f0f0;
-      border: 1px solid #ddd;
+      background-color: #222222;
+      border: 1px solid #444444;
+      color: #eeeeee;
       border-radius: 20px;
       padding: 8px 18px;
       cursor: pointer;
@@ -114,23 +125,23 @@
     .category-btn span.ar-sub {
       font-size: 0.8em;
       font-weight: normal;
-      color: #666;
+      color: #aaaaaa;
       margin-top: 2px;
     }
 
     .category-btn:hover,
     .category-btn.active {
-      background-color: #000000;
-      color: #ffffff;
-      border-color: #000000;
+      background-color: #ffffff;
+      color: #000000;
+      border-color: #ffffff;
     }
 
     .category-btn:hover span.ar-sub,
     .category-btn.active span.ar-sub {
-      color: #ccc;
+      color: #333333;
     }
 
-    /* Menu Grid Container */
+    /* Menu Section Container */
     .menu-container {
       max-width: 1200px;
       margin: 30px auto;
@@ -138,52 +149,56 @@
     }
 
     .category-section {
-      margin-bottom: 40px;
+      margin-bottom: 45px;
     }
 
     .category-title {
       font-size: 1.8rem;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #000;
-      padding-bottom: 5px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      padding-bottom: 8px;
       display: flex;
       align-items: baseline;
       gap: 10px;
+      color: #ffffff;
     }
 
     .category-title .ar-title {
       font-size: 1.3rem;
-      color: #555;
+      color: #cccccc;
       font-weight: normal;
     }
 
     .items-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 22px;
     }
 
     .item-card {
-      background-color: #ffffff;
-      border-radius: 12px;
-      padding: 15px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      background-color: rgba(255, 255, 255, 0.95);
+      color: #111111;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-      transition: transform 0.2s ease;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .item-card:hover {
-      transform: translateY(-3px);
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
     }
 
     .item-image {
-      width: 120px;
-      height: 120px;
+      width: 130px;
+      height: 130px;
       object-fit: contain;
       margin-bottom: 12px;
+      border-radius: 8px;
     }
 
     .item-name-en {
@@ -194,19 +209,22 @@
 
     .item-name-ar {
       font-size: 0.95rem;
-      color: #666;
+      color: #555;
       margin-top: 2px;
       direction: rtl;
     }
 
     .item-prices {
-      margin-top: 10px;
+      margin-top: 12px;
       font-weight: bold;
-      color: #000;
+      color: #000000;
       font-size: 1.05rem;
+      background: #f0f0f0;
+      padding: 4px 12px;
+      border-radius: 12px;
     }
 
-    /* Responsive Mobile View */
+    /* Responsive Mobile Layout */
     @media (max-width: 768px) {
       .hero-container {
         flex-direction: column;
@@ -223,7 +241,7 @@
       }
 
       .hero-logo {
-        max-width: 180px;
+        max-width: 190px;
       }
     }
   </style>
@@ -235,17 +253,17 @@
     <div class="hero-container">
       <!-- Left Poster -->
       <div class="hero-poster poster-left">
-        <img src="assets/poster 1.png" alt="Cafe Vibe 1" />
+        <img src="poster 1.png" alt="Cafe Vibe 1" />
       </div>
 
       <!-- Center Logo -->
       <div class="hero-logo-wrapper">
-        <img src="assets/Logo.png" alt="NEGRO COFFEE" class="hero-logo" />
+        <img src="Logo.png" alt="NEGRO COFFEE" class="hero-logo" />
       </div>
 
       <!-- Right Poster -->
       <div class="hero-poster poster-right">
-        <img src="assets/poster 2.png" alt="Cafe Vibe 2" />
+        <img src="poster 2.png" alt="Cafe Vibe 2" />
       </div>
     </div>
   </header>
@@ -259,9 +277,9 @@
   <main class="menu-container" id="menuContainer"></main>
 
   <!-- Load Menu Data -->
-  <script src="assets/menu-data.js"></script>
+  <script src="menu-data.js"></script>
 
-  <!-- Page Logic -->
+  <!-- Page Script -->
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const categoryNav = document.getElementById("categoryNav");
@@ -272,7 +290,7 @@
         return;
       }
 
-      // Render Navigation Buttons
+      // Render Category Buttons
       window.NEGRO_MENU.forEach((cat, index) => {
         const btn = document.createElement("button");
         btn.className = `category-btn ${index === 0 ? 'active' : ''}`;
@@ -291,7 +309,7 @@
         categoryNav.appendChild(btn);
       });
 
-      // Render Menu Items
+      // Render Menu Cards
       window.NEGRO_MENU.forEach((cat) => {
         const section = document.createElement("section");
         section.className = "category-section";
@@ -306,8 +324,6 @@
         grid.className = "items-grid";
 
         cat.items.forEach((item) => {
-          // Structure expected from menu-data.js:
-          // [id, English Name, Arabic Name, price1, (optional price2/image), ...]
           const id = item[0];
           const nameEn = item[1];
           const nameAr = item[2];
@@ -315,11 +331,10 @@
           let prices = [];
           let imageSrc = "";
 
-          // Extract prices and image path dynamically based on item array length
           for (let i = 3; i < item.length; i++) {
             if (typeof item[i] === "number") {
               prices.push(item[i]);
-            } else if (typeof item[i] === "string" && item[i].includes("assets/")) {
+            } else if (typeof item[i] === "string" && (item[i].includes(".jpg") || item[i].includes(".png") || item[i].includes(".jpeg") || item[i].includes("assets/"))) {
               imageSrc = item[i];
             }
           }
