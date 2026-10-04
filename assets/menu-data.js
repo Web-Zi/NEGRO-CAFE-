@@ -523,37 +523,43 @@ window.NEGRO_MENU = [
         "mango-juice",
         "مانجو",
         "Mango",
-        50
+        50,
+        "assets/mango-juice.png"
       ],
       [
         "strawberry-milk",
         "فراولة حليب",
         "Strawberry Milk",
-        45
+        45,
+        "assets/strawberry-milk.png"
       ],
       [
         "banana-milk",
         "موز حليب",
         "Banana Milk",
-        45
+        45,
+        "assets/banana-milk.png"
       ],
       [
         "guava",
         "جوافة",
         "Guava",
-        45
+        45,
+        "assets/guava.png"
       ],
       [
         "orange",
         "برتقال",
         "Orange",
-        45
+        45,
+        "assets/orange.png"
       ],
       [
         "lemon-mint-juice",
         "ليمون نعناع",
         "Lemon Mint",
-        45
+        45,
+        "assets/lemon-mint-juice.png"
       ]
     ]
   },
@@ -567,31 +573,36 @@ window.NEGRO_MENU = [
         "tiramisu",
         "تيراميسو كب",
         "Tiramisu Cup",
-        40
+        40,
+        "assets/tiramisu.png"
       ],
       [
         "san-sebastian",
         "سان سباستيان",
         "San Sebastian",
-        60
+        60,
+        "assets/san-sebastian.png"
       ],
       [
         "cheesecake-cup",
         "تشيز كيك كب",
         "Cheesecake Cup",
-        20
+        20,
+        "assets/cheesecake-cup.png"
       ],
       [
         "plain-cake",
         "قطعة كيك",
         "Cake Slice",
-        15
+        15,
+        "assets/plain-cake.png"
       ],
       [
         "brownie-cup",
         "براونيز كب",
         "Brownie Cup",
-        45
+        45,
+        "assets/brownie-cup.png"
       ]
     ]
   },
@@ -605,13 +616,15 @@ window.NEGRO_MENU = [
         "icecream-scoop",
         "شوكولات / فراولة / ليمون / فانيليا / كيك / مانجو",
         "Chocolate / Strawberry / Lemon / Vanilla / Cake / Mango",
-        25
+        25,
+        "assets/icecream-scoop.png"
       ],
       [
         "icecream-large",
         "آيس كريم كبير",
         "Large Ice Cream",
-        45
+        45,
+        "assets/icecream-large.png"
       ]
     ]
   },
