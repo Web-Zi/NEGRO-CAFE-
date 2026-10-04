@@ -239,73 +239,85 @@ window.NEGRO_MENU = [
         "chocolate-drop",
         "شوكولاتة دروب",
         "Chocolate Drop",
-        75
+        75,
+        "assets/chocolate-drop.png"
       ],
       [
         "classic-shake",
         "فانيليا / كراميل / بلوبيري / فراولة",
         "Vanilla / Caramel / Blueberry / Strawberry",
-        80
+        80,
+        "assets/classic-shake.png"
       ],
       [
         "choco-mint",
         "شوكو منت",
         "Choco Mint",
-        80
+        80,
+        "assets/choco-mint.png"
       ],
       [
         "kinder",
         "كيندر شوكولات",
         "Kinder Chocolate",
-        100
+        100,
+        "assets/kinder.png"
       ],
       [
         "oreo",
         "أوريو / ميكس وايت أوريو",
         "Oreo / White Oreo Mix",
-        90
+        90,
+        "assets/oreo.png"
       ],
       [
         "cheesecake-blueberry",
         "تشيز كيك بلوبيري",
         "Blueberry Cheesecake",
-        100
+        100,
+        "assets/cheesecake-blueberry.png"
       ],
       [
         "marshmallow",
         "مارشميلو وسويت شيك",
         "Marshmallow Sweet Shake",
-        100
+        100,
+        "assets/marshmallow.png"
       ],
       [
         "peanut-caramel",
         "بينت بتر كراميل",
         "Peanut Butter Caramel",
-        100
+        100,
+        "assets/peanut-caramel.png"
       ],
       [
         "nutella-hazelnut",
         "نوتيلا بالبندق",
         "Hazelnut Nutella",
-        105
+        105,
+        "assets/nutella-hazelnut.png"
       ],
       [
         "strawberry-choco",
         "فراولة شوكولات",
         "Strawberry Chocolate",
-        80
+        80,
+        "assets/strawberry-choco.png"
       ],
       [
         "lotus-shake",
         "لوتس",
         "Lotus",
-        100
+        100,
+        "assets/lotus-shake.png"
       ],
       [
         "pistachio-shake",
         "فستق",
         "Pistachio",
-        110
+        110,
+        "assets/pistachio-shake.png"
       ]
     ]
   },
