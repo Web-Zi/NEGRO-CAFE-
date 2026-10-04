@@ -147,7 +147,7 @@ window.NEGRO_MENU = [
         "نسكافيه بندق / كراميل / فانيليا",
         "Flavoured Nescafé",
         40,
-        "assets/nescafe-flavour.png"
+        "assets/nescafe-milk.png"
       ]
     ]
   },
@@ -161,61 +161,71 @@ window.NEGRO_MENU = [
         "iced-latte",
         "آيس لاتيه",
         "Iced Latte",
-        70
+        70,
+        "assets/iced-latte.png"
       ],
       [
         "iced-mocha",
         "آيس موكا",
         "Iced Mocha",
-        80
+        80,
+        "assets/iced-mocha.png"
       ],
       [
         "iced-caramel",
         "آيس كراميل ميكاتو",
         "Iced Caramel Macchiato",
-        80
+        80,
+        "assets/iced-caramel.png"
       ],
       [
         "iced-spanish",
         "آيس سبانيش لاتيه",
         "Iced Spanish Latte",
-        80
+        80,
+        "assets/iced-spanish.png"
       ],
       [
         "iced-americano",
         "آيس أمريكانو",
         "Iced Americano",
-        60
+        60,
+        "assets/iced-americano.png"
       ],
       [
         "frappuccino",
         "آيس فرابتشينو",
         "Iced Frappuccino",
-        65
+        65,
+        "assets/frappuccino.png"
       ],
       [
         "mocha-frappe",
         "آيس فرابتشينو موكا",
         "Mocha Frappuccino",
-        75
+        75,
+        "assets/mocha-frappe.png"
       ],
       [
         "espresso-cream",
         "إسبريسو كريم",
         "Espresso Cream",
-        85
+        85,
+        "assets/espresso-cream.png"
       ],
       [
         "pistachio-cream",
         "إسبريسو كريم فستق",
         "Pistachio Espresso Cream",
-        105
+        105,
+        "assets/pistachio-cream.png"
       ],
       [
         "caramel-cream",
         "بويا سويسند كراميل",
         "Caramel Cream",
-        95
+        95,
+        "assets/caramel-cream.png"
       ]
     ]
   },
