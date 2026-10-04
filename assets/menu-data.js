@@ -416,49 +416,57 @@ window.NEGRO_MENU = [
         "smoothie-classic",
         "مانجو / فراولة / كيوي / بلوبيري",
         "Mango / Strawberry / Kiwi / Blueberry",
-        65
+        65,
+        "assets/smoothie-classic.png"
       ],
       [
         "passion-fruit",
         "باشون فروت",
         "Passion Fruit",
-        65
+        65,
+        "assets/passion-fruit.png"
       ],
       [
         "kiwi-apple",
         "كيوي مانجو / كيوي تفاح",
         "Kiwi Mango / Kiwi Apple",
-        70
+        70,
+        "assets/kiwi-apple.png"
       ],
       [
         "mango-mix",
         "مانجو خوخ كريم",
         "Mango Peach Cream",
-        70
+        70,
+        "assets/mango-mix.png"
       ],
       [
         "blue-colada",
         "جيلي كولا",
         "Jelly Cola",
-        75
+        75,
+        "assets/blue-colada.png"
       ],
       [
         "mint-peach",
         "خوخ نعناع / تفاح نعناع",
         "Peach Mint / Apple Mint",
-        70
+        70,
+        "assets/mint-peach.png"
       ],
       [
         "mango-cream",
         "مانجو باشون كريم",
         "Mango Passion Cream",
-        70
+        70,
+        "assets/mango-cream.png"
       ],
       [
         "red-berry",
         "ريد بيري دلايت",
         "Red Berry Delight",
-        80
+        80,
+        "assets/red-berry.png"
       ]
     ]
   },
