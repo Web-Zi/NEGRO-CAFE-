@@ -10,75 +10,87 @@ window.NEGRO_MENU = [
         "إسبريسو",
         "Espresso",
         35,
-        55
+        55,
+        "assets/espresso.jpg"
       ],
       [
         "macchiato",
         "ميكاتو",
         "Macchiato",
         35,
-        55
+        55,
+        "assets/macchiato.jpg"
       ],
       [
         "americano",
         "أمريكانو",
         "Americano",
         40,
-        55
+        55,
+        "assets/americano.jpg"
       ],
       [
         "cortado",
         "كورتادو",
         "Cortado",
-        45
+        45,
+        "assets/cortado.jpg"
       ],
       [
         "flat-white",
         "فلات وايت",
         "Flat White",
-        55
+        55,
+        "assets/flat-white.jpg"
       ],
       [
         "latte",
         "لاتيه",
         "Latte",
-        55
-      ],
-      [
-        "spanish-latte",
-        "سبانيش لاتيه",
-        "Spanish Latte",
-        65
+        55,
+        "assets/latte.jpg"
       ],
       [
         "cappuccino",
         "كابتشينو",
         "Cappuccino",
-        55
+        55,
+        "assets/cappuccino.jpg"
       ],
       [
         "caramel-macchiato",
         "كراميل ميكاتو",
         "Caramel Macchiato",
-        60
+        60,
+        "assets/caramel-macchiato.jpg"
       ],
       [
         "mocha",
         "موكا",
         "Mocha",
-        60
+        60,
+        "assets/mocha.jpg"
       ],
       [
         "extra-shot",
         "إضافة شوت إسبريسو",
         "Extra Espresso Shot",
-        20
+        20,
+        "assets/extra-shot.jpg"
+      ],
+      [
+        "spanish-latte",
+        "سبانيش لاتيه",
+        "Spanish Latte",
+        65,
+        "assets/spanish-latte.jpg"
       ],
       [
         "flavour-shot",
         "إضافة فليفر",
         "Flavour Shot",
-        10
+        10,
+        "assets/flavour-extra.jpg"
       ]
     ]
   },
