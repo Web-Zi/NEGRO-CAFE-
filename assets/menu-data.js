@@ -605,36 +605,29 @@ window.NEGRO_MENU = [
         "assets/Tramisu.jpeg"
       ],
       [
-        "san-sebastian",
-        "San Sebastian",
-        "سان سيباستيان",
-        60,
-        "assets/san-sebastian.png"
-      ],
-      [
-        "cheesecake-cup",
-        "Cheesecake Cup",
+        "Berry cheesecake-cup",
+        "Berry Cheesecake Cup",
         "كوب تشيز كيك",
         25,
         "assets/Berry cup.jpeg"
       ],
       [
-        "cheesecake-cup",
-        "Cheesecake Cup",
+        "pistachio cheesecake-cup",
+        "pistachio Cheesecake Cup",
         "كوب تشيز كيك",
         25,
         "assets/pistachio cup.jpeg"
       ],
       [
-        "cheesecake-cup",
-        "Cheesecake Cup",
+        "Chocolate cheesecake-cup",
+        "Chocolate Cheesecake Cup",
         "كوب تشيز كيك",
         25,
         "assets/Chocolate cup.jpeg"
       ],
       [
-        "cheesecake-cup",
-        "Cheesecake Cup",
+        "Cajo cheesecake-cup",
+        "Cajo Cheesecake Cup",
         "كوب تشيز كيك",
         25,
         "assets/Cajo cup.jpeg"
