@@ -640,6 +640,20 @@ window.NEGRO_MENU = [
         "assets/Cajo cup.jpeg"
       ],
       [
+        "cinamon",
+        "Cinamon",
+        "سينابون",
+        60,
+        "assets/Cinamon.jpeg"
+      ],
+      [
+        "cookies",
+        "Cookies",
+        "كوكيز",
+        15,
+        "assets/Cookies.jpeg"
+      ],
+      [
         "plain-cake",
         "Cake Slice",
         "شريحة كيك",
