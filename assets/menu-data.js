@@ -669,18 +669,44 @@ window.NEGRO_MENU = [
     "image": "dessert",
     "items": [
       [
-        "icecream-scoop",
-        "Ice Cream Scoop (Chocolate / Strawberry / Lemon / Vanilla / Cake / Mango)",
-        "بولات آيس كريم (شوكولاتة / فراولة / ليمون / فانيليا / كيك / مانجو)",
+        "chocolate-icecream",
+        "chocolate-Ice Cream",
+        " آيس كريم شوكولاتة",
         25,
-        "assets/icecream-scoop.png"
-      ],
-      [
-        "icecream-large",
-        "Large Ice Cream",
-        "آيس كريم حجم كبير",
         45,
-        "assets/icecream-large.png"
+        "assets/Chocolate ice cream.png"
+      ],
+            [
+        "Mango-icecream",
+        "Mango-Ice Cream",
+        " آيس كريم مانجو",
+        25,
+        45,
+        "assets/Mango ice cream.png"
+      ],
+            [
+        "Strawberry-icecream",
+        "Strawberry-Ice Cream",
+        " آيس كريم فراوله",
+        25,
+        45,
+        "assets/Strawberry ice cream.png"
+      ],
+            [
+        "Lemon-icecream",
+        "Lemon-Ice Cream",
+        " آيس كريم ليمون",
+        25,
+        45,
+        "assets/Lemon ice cream.png"
+      ],
+            [
+        "Cake-icecream",
+        "Cake-Ice Cream",
+        " آيس كريم كيك",
+        25,
+        45,
+        "assets/Cake ice cream.png"
       ]
     ]
   },
