@@ -666,15 +666,23 @@ window.NEGRO_MENU = [
         "croissant",
         "Croissant",
         "كرواسون",
-        45,
-        "assets/croissant.png"
+        55,
+        "assets/cheese croissont 2.png"
+      ],
+      [
+        "croissant",
+        "Croissant",
+        "كرواسون",
+        55,
+        "assets/cheese croissont.png"
       ],
       [
         "sandwich",
         "Sandwich",
         "ساندوتش",
         35,
-        "assets/sandwich.png"
+        40,
+        "assets/Sandwich.jpeg"
       ],
       [
         "toast",
