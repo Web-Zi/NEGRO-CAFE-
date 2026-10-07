@@ -551,43 +551,43 @@ window.NEGRO_MENU = [
         "mango-juice",
         "Fresh Mango Juice",
         "عصير مانجو طازج",
-        50,
-        "assets/mango-juice.png"
+        60,
+        "assets/Fresh mango.png"
       ],
       [
         "strawberry-milk",
         "Strawberry Milk Juice",
         "فراولة بالحليب",
-        45,
-        "assets/strawberry-milk.png"
+        50,
+        "assets/Fresh strawberry with milk.png"
       ],
       [
         "banana-milk",
         "Banana Milk Juice",
         "موز بالحليب",
-        45,
-        "assets/banana-milk.png"
+        50,
+        "assets/Fresh banana with milk.png"
       ],
       [
         "guava",
         "Fresh Guava Juice",
         "عصير جوافة طازج",
-        45,
-        "assets/guava.png"
+        50,
+        "assets/Fresh Guava.png"
       ],
       [
         "orange",
         "Fresh Orange Juice",
         "عصير برتقال طازج",
-        45,
-        "assets/orange.png"
+        50,
+        "assets/Fresh orange.png"
       ],
       [
         "lemon-mint-juice",
         "Lemon Mint Juice",
         "عصير ليمون بالنعناع",
-        45,
-        "assets/lemon-mint-juice.png"
+        50,
+        "assets/Fresh lemon mint.png"
       ]
     ]
   },
