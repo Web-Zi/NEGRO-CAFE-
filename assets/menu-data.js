@@ -602,7 +602,7 @@ window.NEGRO_MENU = [
         "Tiramisu Cup",
         "كوب تيراميسو",
         40,
-        "assets/tiramisu.png"
+        "assets/Tramisu.jpeg"
       ],
       [
         "san-sebastian",
@@ -615,14 +615,35 @@ window.NEGRO_MENU = [
         "cheesecake-cup",
         "Cheesecake Cup",
         "كوب تشيز كيك",
-        20,
-        "assets/cheesecake-cup.png"
+        25,
+        "assets/Berry cup.jpeg"
+      ],
+      [
+        "cheesecake-cup",
+        "Cheesecake Cup",
+        "كوب تشيز كيك",
+        25,
+        "assets/pistachio cup.jpeg"
+      ],
+      [
+        "cheesecake-cup",
+        "Cheesecake Cup",
+        "كوب تشيز كيك",
+        25,
+        "assets/Chocolate cup.jpeg"
+      ],
+      [
+        "cheesecake-cup",
+        "Cheesecake Cup",
+        "كوب تشيز كيك",
+        25,
+        "assets/Cajo cup.jpeg"
       ],
       [
         "plain-cake",
         "Cake Slice",
         "شريحة كيك",
-        15,
+        30,
         "assets/plain-cake.png"
       ],
       [
@@ -630,7 +651,7 @@ window.NEGRO_MENU = [
         "Brownie Cup",
         "كوب براونيز",
         45,
-        "assets/brownie-cup.png"
+        "assets/Brownies cup.jpeg"
       ]
     ]
   },
