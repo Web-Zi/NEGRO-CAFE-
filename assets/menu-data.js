@@ -695,17 +695,17 @@ window.NEGRO_MENU = [
         "kunafa-cheese",
         "Nabulsi Kunafa with Cheese",
         "كنافة نابلسية بالجبنة",
-        80,
-        150,
-        "assets/kunafa-cheese.png"
+        100,
+        180,
+        "assets/KUnafa nabolsi cheese.png"
       ],
       [
         "kunafa-cream",
         "Kunafa with Cream",
-        "كنافة بالقشطة",
-        50,
-        90,
-        "assets/kunafa-cream.png"
+        "كنافة بالكريمه",
+        80,
+        120,
+        "assets/KUnafa nabolsi.png"
       ]
     ]
   },
