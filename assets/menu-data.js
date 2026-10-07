@@ -681,7 +681,7 @@ window.NEGRO_MENU = [
         "Toast",
         "توست",
         50,
-        "assets/toast.png"
+        "assets/sandwich.png"
       ]
     ]
   },
