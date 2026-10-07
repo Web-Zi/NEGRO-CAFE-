@@ -413,60 +413,81 @@ window.NEGRO_MENU = [
     "image": "cold",
     "items": [
       [
-        "smoothie-classic",
-        "Classic Smoothie (Mango / Strawberry / Kiwi / Blueberry)",
-        "سموذي كلاسيك (مانجو / فراولة / كيوي / بلوبيري)",
-        65,
-        "assets/smoothie-classic.png"
+        "Apple kiwi smoothie",
+        "Apple kiwi smoothie",
+        "سموزي تفاح كيوي",
+        70,
+        "assets/Apple kiwi smoothie.png"
       ],
       [
         "passion-fruit",
         "Passion Fruit",
         "باشن فروت",
         65,
-        "assets/passion-fruit.png"
+        "assets/Pashon smoothie.png"
       ],
       [
-        "kiwi-apple",
-        "Kiwi Mango / Kiwi Apple",
-        "كيوي مانجو / كيوي تفاح",
+        "Mango passion cream",
+        "Mango passion cream smothie",
+        "سموزي مانجا باشون",
         70,
-        "assets/kiwi-apple.png"
+        "assets/Mango pashon cream smothie.png"
       ],
       [
         "mango-mix",
         "Mango Peach Cream",
         "مانجو خوخ كريم",
         70,
-        "assets/mango-mix.png"
+        "assets/Mango peach cream smoothie.png"
       ],
       [
-        "blue-colada",
-        "Blue Colada",
+        "jelly cola smoothie",
+        "jelly cola smoothie",
         "بلو كولادا",
         75,
-        "assets/blue-colada.png"
+        "assets/jelly cola smoothie.png"
       ],
       [
-        "mint-peach",
-        "Peach Mint / Apple Mint",
-        "خوخ نعناع / تفاح نعناع",
+        "Apple mint smoothie",
+        "Apple Mint",
+        "تفاح نعناع",
         70,
-        "assets/mint-peach.png"
+        "assets/Apple mint smoothie.png"
       ],
       [
         "mango-cream",
-        "Mango Passion Cream",
-        "مانجو باشن كريم",
+        "Mango Cream",
+        "مانجو كريم",
         70,
-        "assets/mango-cream.png"
+        "assets/Mango cream smoothie.png"
+      ],
+      [
+        "strawberry smoothie",
+        "strawberry / stawberry cinnamon smoothie",
+        "سموزي فراوله / سموزي فراوله بالقرفه",
+        70,
+        "assets/Strawberry cinnamon smoothie.png"
+      ],
+      [
+        "watermalon mint",
+        "watermalon mint smoothie",
+        "سموزي بطيخ نعناع",
+        70,
+        "assets/watermalon mint smoothie.png"
+      ],
+      [
+        "blue berry mint",
+        "blue berry mint smoothie",
+        "سموزي بلو بيري نعناع",
+        70,
+        "assets/blue berry smoothie.jpeg"
       ],
       [
         "red-berry",
         "Red Berry Delight",
         "ريد بيري ديلايت",
         80,
-        "assets/red-berry.png"
+        "assets/red berry smoothie.jpeg"
       ]
     ]
   },
