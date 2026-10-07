@@ -644,7 +644,7 @@ window.NEGRO_MENU = [
         "Cinamon",
         "سينابون",
         60,
-        "assets/Cinamon.jpeg"
+        "assets/Cinamon.png"
       ],
       [
         "cookies",
