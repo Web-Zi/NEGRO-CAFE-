@@ -332,77 +332,85 @@ window.NEGRO_MENU = [
         "Tea / Flavoured Tea",
         "شاي / شاي بنكهات",
         15,
-        "assets/tea.png"
+        "assets/Tea.png"
       ],
       [
         "herbs",
         "Herbal Drink",
         "مشروب أعشاب",
         15,
-        "assets/herbs.png"
+        "assets/Herbal.png"
       ],
       [
         "ginger",
         "Anise / Ginger",
         "يانسون / زنجبيل",
-        40,
-        "assets/ginger.png"
+        15,
+        20,
+        "assets/anise.png"
       ],
       [
         "hot-cider",
         "Hot Cider",
         "هوت سايدر",
         40,
-        "assets/hot-cider.png"
+        "assets/hot cider.png"
       ],
       [
         "pomegranate",
         "Hot Pomegranate Cinnamon",
         "رمان ساخن بالقرفة",
         40,
-        "assets/pomegranate.png"
+        "assets/hot roman cinnamon.png"
       ],
       [
         "hot-chocolate",
         "Hot Chocolate",
         "هوت شوكليت",
-        25,
+        40,
         "assets/hot-chocolate.png"
       ],
       [
         "sahlab",
         "Classic Sahlab",
         "سحلب كلاسيك",
-        45,
-        "assets/sahlab.png"
+        50,
+        "assets/Classic sahlab.png"
+      ],
+        [
+        "Karak",
+        "Karak tea",
+        "شاي كرك\ عدني",
+        50,
+        "assets/"
       ],
       [
         "sahlab-nuts",
         "Nuts Sahlab",
         "سحلب بالمكسرات",
-        65,
-        "assets/sahlab-nuts.png"
+        75,
+        "assets/Nuts sahlab.png"
       ],
       [
         "sahlab-lotus",
         "Pistachio / Lotus Sahlab",
         "سحلب بالفستق / اللوتس",
-        75,
-        "assets/sahlab-lotus.png"
+        90,
+        "assets/Pistachio sahlab.png"
       ],
       [
         "hot-lotus",
         "Hot Lotus",
         "هوت لوتس",
-        65,
-        "assets/hot-lotus.png"
+        70,
+        "assets/hot lotus.png"
       ],
       [
         "hot-pistachio",
         "Hot Pistachio",
         "هوت بستاشيو",
-        75,
-        "assets/hot-pistachio.png"
+        80,
+        "assets/hot pistachio.png"
       ]
     ]
   },
