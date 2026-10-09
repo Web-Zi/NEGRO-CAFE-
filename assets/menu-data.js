@@ -501,64 +501,64 @@ window.NEGRO_MENU = [
         "jelly-cola",
         "Jelly Cola",
         "جيلي كولا",
-        40,
-        "assets/jelly-cola.png"
+        50,
+        "assets/Jelly cola soda.png"
       ],
       [
-        "blue-lemon",
-        "Blue Flames Lemon",
-        "بلو فليمز ليمون",
-        40,
-        "assets/blue-lemon.png"
+        "volt vimto",
+        "Volt vimto soda",
+        "فولت فيمتو",
+        50,
+        "assets/Volt vimto soda.png"
       ],
       [
-        "lemon-blue",
-        "Blueberry Lemon",
-        "بلوبيري ليمون",
-        40,
-        "assets/lemon-blue.png"
+        "Passion lemon",
+        "Passion lemon mint soda",
+        "باشون ليمون نعناع",
+        50,
+        "assets/Passion lemon soda.png"
       ],
       [
         "kiwi-mint",
         "Kiwi Lemon Mint",
         "كيوي ليمون نعناع",
-        40,
-        "assets/kiwi-mint.png"
+        50,
+        "assets/Kiwi lemon mint soda.png"
       ],
       [
         "blueberry-soda",
         "Blueberry Soda",
         "بلوبيري صودا",
-        40,
-        "assets/blueberry-soda.png"
+        50,
+        "assets/Blueberru soda.png"
       ],
       [
         "apple-mint",
         "Apple Mint Soda",
         "تفاح بالنعناع صودا",
-        40,
-        "assets/apple-mint.png"
+        50,
+        "assets/Apple mint soda.png"
       ],
       [
-        "mango-apple",
-        "Mango Apple Soda",
-        "مانجو تفاح صودا",
-        40,
-        "assets/mango-apple.png"
+        "mango-pepper",
+        "Mango pepper Soda",
+        "مانجو فلفل صودا",
+        50,
+        "assets/Mango soda.png"
       ],
       [
         "ice-tea",
         "Iced Tea",
         "آيس تي",
-        50,
-        "assets/ice-tea.png"
+        60,
+        "assets/Ice tea.png"
       ],
       [
         "red-bull",
         "Red Bull",
         "ريد بول",
         80,
-        "assets/red-bull.png"
+        "assets/Red bull.png"
       ]
     ]
   },
