@@ -239,29 +239,29 @@ window.NEGRO_MENU = [
         "chocolate-drop",
         "Chocolate Drop",
         "شوكولاتة دروب",
-        75,
-        "assets/chocolate-drop.png"
+        80,
+        "assets/Chocolate drop.png"
       ],
       [
         "classic-shake",
         "Classic Shake (Vanilla / Caramel / Blueberry / Strawberry)",
         "ميلك شيك كلاسيك (فانيليا / كراميل / بلوبيري / فراولة)",
         80,
-        "assets/classic-shake.png"
+        "assets/vanillia.png"
       ],
       [
         "choco-mint",
         "Choco Mint",
         "شوكو نعناع",
-        80,
-        "assets/choco-mint.png"
+        85,
+        "assets/Choco mint.png"
       ],
       [
         "kinder",
         "Kinder Chocolate",
         "كيندر شوكولاتة",
         100,
-        "assets/kinder.png"
+        "assets/kinder chocolate.png"
       ],
       [
         "oreo",
@@ -274,50 +274,50 @@ window.NEGRO_MENU = [
         "cheesecake-blueberry",
         "Blueberry Cheesecake",
         "تشيز كيك بلوبيري",
-        100,
-        "assets/cheesecake-blueberry.png"
+        110,
+        "assets/blueberry cheesecake.png"
       ],
       [
         "marshmallow",
         "Marshmallow Sweet Shake",
         "مارشميلو وسويت شيك",
         100,
-        "assets/marshmallow.png"
+        "assets/marshemellow.png"
       ],
       [
         "peanut-caramel",
         "Peanut Butter Caramel",
         "زبدة الفول السوداني بالكراميل",
         100,
-        "assets/peanut-caramel.png"
+        "assets/peanut butter.png"
       ],
       [
         "nutella-hazelnut",
         "Hazelnut Nutella",
         "نوتيلا بالبندق",
-        105,
-        "assets/nutella-hazelnut.png"
+        120,
+        "assets/hazlnut.png"
       ],
       [
         "strawberry-choco",
         "Strawberry Chocolate",
         "فراولة شوكولاتة",
-        80,
-        "assets/strawberry-choco.png"
+        85,
+        "assets/strawberry chocolate.png"
       ],
       [
         "lotus-shake",
         "Lotus",
         "لوتس",
-        100,
-        "assets/lotus-shake.png"
+        110,
+        "assets/lotus.png"
       ],
       [
         "pistachio-shake",
         "Pistachio",
         "فستق",
-        110,
-        "assets/pistachio-shake.png"
+        120,
+        "assets/pistachio.png"
       ]
     ]
   },
