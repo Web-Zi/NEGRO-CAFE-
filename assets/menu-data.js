@@ -368,7 +368,7 @@ window.NEGRO_MENU = [
         "Hot Chocolate",
         "هوت شوكليت",
         40,
-        "assets/hot-chocolate.png"
+        "assets/hot chocolate.png"
       ],
       [
         "sahlab",
@@ -382,7 +382,7 @@ window.NEGRO_MENU = [
         "Karak tea",
         "شاي كرك\ عدني",
         50,
-        "assets/"
+        "assets/karak.jpeg"
       ],
       [
         "sahlab-nuts",
