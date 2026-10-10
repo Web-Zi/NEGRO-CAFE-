@@ -218,35 +218,35 @@ window.NEGRO_MENU = [
         "Espresso Cream (mocha-white-caramel)",
         " اسبريسو كريم موكا-وايت-كرامل",
         100,
-        "assets/espresso-cream.png"
+        "assets/Frappe mwc.png"
       ],
            [
         "espresso-cream",
         "Espresso Cream (peanut butter-oreo-blueberry)",
         " اسبريسو كريم بينت بتر-اوريو-بلوبيري",
         110,
-        "assets/espresso-cream.png"
+        "assets/frappe pol.png"
       ],
            [
         "espresso-cream",
         "Pistachio-lotus Espresso Cream",
         "اسبريسو كريم بستاشيو-لوتس",
         130,
-        "assets/pistachio-cream.png"
+        "assets/Frappe p-l.png"
       ],
            [
         "Boba",
         "Boba classic",
         "بوبا كلاسيك",
         100,
-        "assets/caramel-cream.png"
+        "assets/boba classic.jpeg"
       ],
          [
         "Boba",
         "Boba frappe",
         "بوبا فرابيه",
         110,
-        "assets/caramel-cream.png"
+        "assets/Boba frappe.png"
       ]
     ]
   },
