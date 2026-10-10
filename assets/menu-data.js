@@ -105,56 +105,56 @@ window.NEGRO_MENU = [
         "Turkish Coffee",
         "قهوة تركية",
         25,
-        "assets/turkish.png"
+        "assets/Turkish coffee.png"
       ],
       [
         "turkish-spiced",
         "Spiced Turkish Coffee",
         "قهوة تركية محوجة",
         30,
-        "assets/turkish-spiced.png"
+        "assets/Turkish coffee.png"
       ],
       [
         "french",
         "French Coffee",
         "قهوة فرنسية",
         40,
-        "assets/french.png"
+        "assets/French coffee.png"
       ],
       [
         "french-caramel",
         "Caramel French Coffee",
         "قهوة فرنسية بالكراميل",
         60,
-        "assets/french-caramel.png"
+        "assets/French caramel.png"
       ],
       [
         "hazelnut",
         "Hazelnut Coffee",
         "قهوة بالبندق ",
         60,
-        "assets/hazelnut-nutella.png"
+        "assets/Huzelnut coffee.png"
       ],
       [
         "nutella",
         "Nutella Coffee",
         "قهوة بالنوتيلا",
         70,
-        "assets/hazelnut-nutella.png"
+        "assets/Huzelnut coffee.png"
       ],
       [
         "nescafe-milk",
         "Nescafé with Milk",
         "نسكافيه بالحليب",
         40,
-        "assets/nescafe-milk.png"
+        "assets/Milk nescafe.png"
       ],
       [
         "nescafe-flavour",
         "Flavoured Nescafé",
         "نسكافيه بنكهات (بندق / كراميل / فانيليا)",
         60,
-        "assets/nescafe-milk.png"
+        "assets/Milk nescafe.png"
       ]
     ]
   },
