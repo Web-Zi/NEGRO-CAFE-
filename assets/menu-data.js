@@ -162,35 +162,35 @@ window.NEGRO_MENU = [
         "Iced Latte",
         "آيس لاتيه",
         75,
-        "assets/iced-latte.png"
+        "assets/Ice latte.png"
       ],
       [
         "iced-mocha",
         "Iced Mocha",
         "آيس موكا",
         85,
-        "assets/iced-mocha.png"
+        "assets/Ice mocha.png"
       ],
       [
         "iced-mocha",
         "Iced white Mocha",
         "آيس وايت موكا",
         85,
-        "assets/iced-mocha.png"
+        "assets/White ice mocha.png"
       ],
       [
         "iced-spanish",
         "Iced Spanish Latte",
         "آيس سبانيش لاتيه",
         85,
-        "assets/iced-spanish.png"
+        "assets/Ice spanish latte.png"
       ],
       [
         "iced-americano",
         "Iced Americano",
         "آيس أمريكانو",
         65,
-        "assets/iced-americano.png"
+        "assets/Ice amrecano.png"
       ],
       [
         "frappuccino",
@@ -204,7 +204,7 @@ window.NEGRO_MENU = [
         "Mocha-caramel-dolshi Frappuccino",
         "فرابتشينو دولشي-كرامل-موكا",
         85,
-        "assets/mocha-frappe.png"
+        "assets/Frappuccino.png"
       ],
       [
         "espresso-cream",
