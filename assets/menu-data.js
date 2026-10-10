@@ -10,15 +10,15 @@ window.NEGRO_MENU = [
         "Espresso",
         "إسبريسو",
         35,
-        55,
+        60,
         "assets/espresso.png"
       ],
       [
         "macchiato",
         "Macchiato",
         "ماكياتو",
-        35,
-        55,
+        40,
+        60,
         "assets/macchiato.png"
       ],
       [
@@ -26,70 +26,84 @@ window.NEGRO_MENU = [
         "Americano",
         "أمريكانو",
         40,
-        55,
+        60,
         "assets/americano.png"
       ],
       [
         "cortado",
         "Cortado",
         "كورتادو",
-        45,
+        50,
         "assets/cortado.png"
       ],
       [
         "flat-white",
         "Flat White",
         "فلات وايت",
-        55,
+        70,
+        95,
         "assets/flat-white.png"
       ],
       [
         "latte",
         "Latte",
         "لاتيه",
-        55,
+        60,
+        85,
         "assets/latte.png"
       ],
       [
         "cappuccino",
         "Cappuccino",
         "كابتشينو",
-        55,
+        70,
+        95,
         "assets/cappuccino.png"
       ],
       [
         "caramel-macchiato",
         "Caramel Macchiato",
         "كراميل ماكياتو",
-        60,
+        80,
+        105,
         "assets/caramel-macchiato.png"
       ],
       [
         "mocha",
-        "Mocha",
+        "Mocha-white mocha",
         "موكا",
-        60,
+        80,
+        105,
         "assets/mocha.png"
-      ],
-      [
-        "extra-shot",
-        "Extra Espresso Shot",
-        "إضافة جرعة إسبريسو",
-        20,
-        "assets/extra-shot.png"
       ],
       [
         "spanish-latte",
         "Spanish Latte",
         "سبانيش لاتيه",
-        65,
+        70,
+        90,
+        "assets/spanish-latte.png"
+      ],
+        [
+        "cinnamon-latte",
+        "Cinnamon Latte",
+        "سينامون لاتيه",
+        75,
+        95,
+        "assets/spanish-latte.png"
+      ],
+        [
+        "tramisu-latte",
+        "Tramisu Latte",
+        "ترامسيو لاتيه",
+        100,
         "assets/spanish-latte.png"
       ],
       [
         "flavour-shot",
         "Flavour Shot",
         "إضافة نكهة",
-        10,
+        20,
         "assets/flavour-shot.png"
       ]
     ]
