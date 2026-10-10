@@ -161,70 +161,91 @@ window.NEGRO_MENU = [
         "iced-latte",
         "Iced Latte",
         "آيس لاتيه",
-        70,
+        75,
         "assets/iced-latte.png"
       ],
       [
         "iced-mocha",
         "Iced Mocha",
         "آيس موكا",
-        80,
+        85,
         "assets/iced-mocha.png"
       ],
       [
-        "iced-caramel",
-        "Iced Caramel Macchiato",
-        "آيس كراميل ماكياتو",
-        80,
-        "assets/iced-caramel.png"
+        "iced-mocha",
+        "Iced white Mocha",
+        "آيس وايت موكا",
+        85,
+        "assets/iced-mocha.png"
       ],
       [
         "iced-spanish",
         "Iced Spanish Latte",
         "آيس سبانيش لاتيه",
-        80,
+        85,
         "assets/iced-spanish.png"
       ],
       [
         "iced-americano",
         "Iced Americano",
         "آيس أمريكانو",
-        60,
+        65,
         "assets/iced-americano.png"
       ],
       [
         "frappuccino",
         "Iced Frappuccino",
         "آيس فرابتشينو",
-        65,
+        75,
         "assets/frappuccino.png"
       ],
       [
         "mocha-frappe",
-        "Mocha Frappuccino",
-        "فرابتشينو موكا",
-        75,
+        "Mocha-caramel-dolshi Frappuccino",
+        "فرابتشينو دولشي-كرامل-موكا",
+        85,
         "assets/mocha-frappe.png"
       ],
       [
         "espresso-cream",
         "Espresso Cream",
         "إسبريسو كريم",
-        85,
+        90,
         "assets/espresso-cream.png"
       ],
-      [
-        "pistachio-cream",
-        "Pistachio Espresso Cream",
-        "إسبريسو كريم بالفستق",
-        105,
+          [
+        "espresso-cream",
+        "Espresso Cream (mocha-white-caramel)",
+        " اسبريسو كريم موكا-وايت-كرامل",
+        100,
+        "assets/espresso-cream.png"
+      ],
+           [
+        "espresso-cream",
+        "Espresso Cream (peanut butter-oreo-blueberry)",
+        " اسبريسو كريم بينت بتر-اوريو-بلوبيري",
+        110,
+        "assets/espresso-cream.png"
+      ],
+           [
+        "espresso-cream",
+        "Pistachio-lotus Espresso Cream",
+        "اسبريسو كريم بستاشيو-لوتس",
+        130,
         "assets/pistachio-cream.png"
       ],
-      [
-        "caramel-cream",
-        "Caramel Cream",
-        "كراميل كريم",
-        95,
+           [
+        "Boba",
+        "Boba classic",
+        "بوبا كلاسيك",
+        100,
+        "assets/caramel-cream.png"
+      ],
+         [
+        "Boba",
+        "Boba frappe",
+        "بوبا فرابيه",
+        110,
         "assets/caramel-cream.png"
       ]
     ]
