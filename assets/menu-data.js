@@ -11,7 +11,7 @@ window.NEGRO_MENU = [
         "إسبريسو",
         35,
         60,
-        "assets/espresso.png"
+        "assets/Espresso.png"
       ],
       [
         "macchiato",
@@ -27,14 +27,14 @@ window.NEGRO_MENU = [
         "أمريكانو",
         40,
         60,
-        "assets/americano.png"
+        "assets/amrecano.png"
       ],
       [
         "cortado",
         "Cortado",
         "كورتادو",
         50,
-        "assets/cortado.png"
+        "assets/Cortado.png"
       ],
       [
         "flat-white",
@@ -42,7 +42,7 @@ window.NEGRO_MENU = [
         "فلات وايت",
         70,
         95,
-        "assets/flat-white.png"
+        "assets/Flat white.png"
       ],
       [
         "latte",
@@ -66,7 +66,7 @@ window.NEGRO_MENU = [
         "كراميل ماكياتو",
         80,
         105,
-        "assets/caramel-macchiato.png"
+        "assets/Caramel macchiato.png"
       ],
       [
         "mocha",
@@ -74,7 +74,7 @@ window.NEGRO_MENU = [
         "موكا",
         80,
         105,
-        "assets/mocha.png"
+        "assets/Mocha.png"
       ],
       [
         "spanish-latte",
@@ -82,7 +82,7 @@ window.NEGRO_MENU = [
         "سبانيش لاتيه",
         70,
         90,
-        "assets/spanish-latte.png"
+        "assets/Spanish latte.png"
       ],
         [
         "cinnamon-latte",
@@ -90,14 +90,14 @@ window.NEGRO_MENU = [
         "سينامون لاتيه",
         75,
         95,
-        "assets/spanish-latte.png"
+        "assets/Cinnamon latte.png"
       ],
         [
         "tramisu-latte",
         "Tramisu Latte",
         "ترامسيو لاتيه",
         100,
-        "assets/spanish-latte.png"
+        "assets/Tramisu latte.png"
       ],
       [
         "flavour-shot",
