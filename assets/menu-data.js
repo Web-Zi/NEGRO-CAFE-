@@ -197,7 +197,7 @@ window.NEGRO_MENU = [
         "Iced Frappuccino",
         "آيس فرابتشينو",
         75,
-        "assets/frappuccino.png"
+        "assets/N frappuccino.jpeg"
       ],
       [
         "mocha-frappe",
@@ -211,7 +211,7 @@ window.NEGRO_MENU = [
         "Espresso Cream",
         "إسبريسو كريم",
         90,
-        "assets/espresso-cream.png"
+        "assets/n frappe.jpeg"
       ],
           [
         "espresso-cream",
