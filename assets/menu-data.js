@@ -730,7 +730,7 @@ window.NEGRO_MENU = [
         "tiramisu",
         "Tiramisu Cup",
         "كوب تيراميسو",
-        40,
+        50,
         "assets/Tramisu.jpeg"
       ],
       [
