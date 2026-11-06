@@ -104,7 +104,7 @@ window.NEGRO_MENU = [
         "Flavour Shot",
         "إضافة نكهة",
         20,
-        "assets/flavour-shot.png"
+        "flavour-shot.png"
       ]
     ]
   },
@@ -119,28 +119,28 @@ window.NEGRO_MENU = [
         "Classic Hot Chocolate",
         "هوت شوكليت كلاسيك",
         60,
-        ""
+        "assets/classic hot chocolate.png"
       ],
       [
         "hot-choc-strawberry-blueberry",
         "Strawberry / Blueberry Hot Chocolate",
         "هوت شوكليت فراولة - بلوبيري",
         90,
-        ""
+        "assets/hot chocolate berry.png"
       ],
       [
         "hot-choc-dolshi",
         "Dolshi Hot Chocolate",
         "هوت شوكليت دولشي",
         90,
-        ""
+        "assets/dolce hot chocolate.png"
       ],
       [
         "hot-choc-oreo-marshmallow",
         "Oreo / Marshmallow Hot Chocolate",
         "هوت شوكليت أوريو / مارشميلو",
         110,
-        ""
+        "assets/oreo hot chocolate.png"
       ],
       [
         "hot-choc-nutella-hazelnut",
@@ -148,7 +148,7 @@ window.NEGRO_MENU = [
         "هوت شوكليت نوتيلا بندق",
         100,
         120,
-        ""
+        "assets/nutella hot chocolate.png"
       ],
       [
         "hot-choc-tiramisu",
@@ -156,15 +156,8 @@ window.NEGRO_MENU = [
         "هوت شوكليت تراميسو",
         100,
         110,
-        ""
+        "assets/tiramisu hot chocolate.png"
       ],
-      [
-        "item-id",
-        "English Name",
-        "الاسم بالعربي",
-        50,
-        ""
-      ]
     ]
   },
   {
