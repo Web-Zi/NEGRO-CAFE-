@@ -319,7 +319,7 @@ window.NEGRO_MENU = [
         "hazulnut frappe",
         "فرابيه ناتس",
         110,
-        "assets/hazelnut frappe.png"
+        "assets/hazelnut nutella frappe.png"
       ],
          [
         "Boba",
