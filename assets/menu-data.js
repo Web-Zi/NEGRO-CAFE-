@@ -267,7 +267,7 @@ window.NEGRO_MENU = [
         "hazulnut nutella frappe",
         "فرابيه نوتيلا بالبندق",
         120,
-        "assets/boba classic.jpeg"
+        "assets/hazelnut nutella frappe.png"
       ],
          [
         "Boba",
