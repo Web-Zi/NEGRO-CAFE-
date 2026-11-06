@@ -33,70 +33,70 @@ window.NEGRO_MENU = [
         "cortado",
         "Cortado",
         "كورتادو",
-        50,
+        60,
         "assets/Cortado.png"
       ],
       [
         "flat-white",
         "Flat White",
         "فلات وايت",
-        70,
-        95,
+        80,
+        110,
         "assets/Flat white.png"
       ],
       [
         "latte",
         "Latte",
         "لاتيه",
-        60,
-        85,
+        70,
+        90,
         "assets/latte.png"
       ],
       [
         "cappuccino",
         "Cappuccino",
         "كابتشينو",
-        70,
-        95,
+        80,
+        110,
         "assets/cappuccino.png"
       ],
       [
         "caramel-macchiato",
         "Caramel Macchiato",
         "كراميل ماكياتو",
-        80,
-        105,
+        90,
+        110,
         "assets/Caramel macchiato.png"
       ],
       [
         "mocha",
         "Mocha-white mocha",
         "موكا",
-        80,
-        105,
+        90,
+        110,
         "assets/Mocha.png"
       ],
       [
         "spanish-latte",
         "Spanish Latte",
         "سبانيش لاتيه",
-        70,
-        90,
+        80,
+        100,
         "assets/Spanish latte.png"
       ],
         [
         "cinnamon-latte",
         "Cinnamon Latte",
         "سينامون لاتيه",
-        75,
-        95,
+        80,
+        100,
         "assets/Cinnamon latte.png"
       ],
         [
         "tramisu-latte",
         "Tramisu Latte",
         "ترامسيو لاتيه",
-        100,
+        120,
         "assets/Tramisu latte.png"
       ],
       [
@@ -262,6 +262,13 @@ window.NEGRO_MENU = [
         100,
         "assets/boba classic.jpeg"
       ],
+           [
+        "Frappe",
+        "hazulnut nutella frappe",
+        "فرابيه نوتيلا بالبندق",
+        120,
+        "assets/boba classic.jpeg"
+      ],
          [
         "Boba",
         "Boba frappe",
@@ -380,14 +387,13 @@ window.NEGRO_MENU = [
         "herbs",
         "Herbal Drink",
         "مشروب أعشاب",
-        15,
+        20,
         "assets/Herbal.png"
       ],
       [
         "ginger",
         "Anise / Ginger",
         "يانسون / زنجبيل",
-        15,
         20,
         "assets/anise.png"
       ],
@@ -395,14 +401,14 @@ window.NEGRO_MENU = [
         "hot-cider",
         "Hot Cider",
         "هوت سايدر",
-        40,
+        50,
         "assets/hot cider.png"
       ],
       [
         "pomegranate",
         "Hot Pomegranate Cinnamon",
         "رمان ساخن بالقرفة",
-        40,
+        50,
         "assets/hot roman cinnamon.png"
       ],
       [
@@ -416,42 +422,42 @@ window.NEGRO_MENU = [
         "sahlab",
         "Classic Sahlab",
         "سحلب كلاسيك",
-        50,
+        60,
         "assets/Classic sahlab.png"
       ],
         [
         "Karak",
         "Karak tea",
         "شاي كرك\ عدني",
-        50,
+        60,
         "assets/karak.jpeg"
       ],
       [
         "sahlab-nuts",
         "Nuts Sahlab",
         "سحلب بالمكسرات",
-        75,
+        90,
         "assets/Nuts sahlab.png"
       ],
       [
         "sahlab-lotus",
         "Pistachio / Lotus Sahlab",
         "سحلب بالفستق / اللوتس",
-        90,
+        110,
         "assets/Pistachio sahlab.png"
       ],
       [
         "hot-lotus",
         "Hot Lotus",
         "هوت لوتس",
-        70,
+        90,
         "assets/hot lotus.png"
       ],
       [
         "hot-pistachio",
         "Hot Pistachio",
         "هوت بستاشيو",
-        80,
+        100,
         "assets/hot pistachio.png"
       ]
     ]
@@ -607,7 +613,7 @@ window.NEGRO_MENU = [
         "red-bull",
         "Red Bull",
         "ريد بول",
-        80,
+        85,
         "assets/Red bull.png"
       ]
     ]
@@ -615,7 +621,7 @@ window.NEGRO_MENU = [
   {
     "id": "fresh-juice",
     "en": "Fresh Juice",
-    "ar": "عصائر طازجة",
+    "ar": "عصائر فريش",
     "image": "cold",
     "items": [
       [
@@ -714,7 +720,7 @@ window.NEGRO_MENU = [
         "cookies",
         "Cookies",
         "كوكيز",
-        15,
+        20,
         "assets/Cookies.jpeg"
       ],
       [
@@ -728,7 +734,7 @@ window.NEGRO_MENU = [
         "brownie-cup",
         "Brownie Cup",
         "كوب براونيز",
-        45,
+        50,
         "assets/Brownies cup.jpeg"
       ]
     ]
@@ -791,21 +797,20 @@ window.NEGRO_MENU = [
         "croissant",
         "Croissant",
         "كرواسون",
-        55,
+        60,
         "assets/cheese croissont 2.png"
       ],
       [
         "croissant",
         "Croissant",
         "كرواسون",
-        55,
+        60,
         "assets/cheese croissont.png"
       ],
       [
         "sandwich",
         "Sandwich",
         "ساندوتش",
-        35,
         40,
         "assets/Sandwich.jpeg"
       ],
