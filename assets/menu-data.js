@@ -108,6 +108,65 @@ window.NEGRO_MENU = [
       ]
     ]
   },
+    {
+    "id": "Hot Chocolate",
+    "en": "Hot Chocolate",
+    "ar": "هوت شوكليت",
+    "image": "hot",
+    "items": [
+            [
+        "hot-choc-classic",
+        "Classic Hot Chocolate",
+        "هوت شوكليت كلاسيك",
+        60,
+        ""
+      ],
+      [
+        "hot-choc-strawberry-blueberry",
+        "Strawberry / Blueberry Hot Chocolate",
+        "هوت شوكليت فراولة - بلوبيري",
+        90,
+        ""
+      ],
+      [
+        "hot-choc-dolshi",
+        "Dolshi Hot Chocolate",
+        "هوت شوكليت دولشي",
+        90,
+        ""
+      ],
+      [
+        "hot-choc-oreo-marshmallow",
+        "Oreo / Marshmallow Hot Chocolate",
+        "هوت شوكليت أوريو / مارشميلو",
+        110,
+        ""
+      ],
+      [
+        "hot-choc-nutella-hazelnut",
+        "Nutella Hazelnut Hot Chocolate",
+        "هوت شوكليت نوتيلا بندق",
+        100,
+        120,
+        ""
+      ],
+      [
+        "hot-choc-tiramisu",
+        "Tiramisu Hot Chocolate",
+        "هوت شوكليت تراميسو",
+        100,
+        110,
+        ""
+      ],
+      [
+        "item-id",
+        "English Name",
+        "الاسم بالعربي",
+        50,
+        ""
+      ]
+    ]
+  },
   {
     "id": "coffee-corner",
     "en": "Coffee Corner",
