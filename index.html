@@ -21,11 +21,11 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:150px}
-body{font-family:'Cairo','Segoe UI',Tahoma,sans-serif;background:var(--bg);color:var(--text);transition:background .25s,color .25s;line-height:1.5}
+body{font-family:'Cairo','Segoe UI',Tahoma,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
 .serif{font-family:'Playfair Display','Cairo',serif}
 
 /* Top bar */
-.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topbar{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
 .bar-row{max-width:1200px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:10px}
 .brand{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
 .brand img{height:42px;width:auto;border-radius:8px;background:#000;padding:2px}
@@ -53,13 +53,12 @@ body{font-family:'Cairo','Segoe UI',Tahoma,sans-serif;background:var(--bg);color
 
 /* Sections */
 main{max-width:1200px;margin:0 auto;padding:8px 16px 20px}
-.cat{margin-top:30px}
+.cat{margin-top:30px;content-visibility:auto;contain-intrinsic-size:auto 900px}
 .cat-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:2px solid var(--accent);padding-bottom:6px;margin-bottom:14px}
 .cat-head h2{font-size:1.5rem}
 .cat-head .ar-t{font-size:1.35rem;font-weight:700;color:var(--accent)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}
-.card{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:12px;box-shadow:var(--shadow);transition:transform .2s}
-.card:hover{transform:translateY(-2px)}
+.card{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:12px;box-shadow:0 1px 4px rgba(0,0,0,.12)}
 .thumb{flex:none;width:92px;height:92px;border-radius:12px;background:var(--img-bg);display:grid;place-items:center;overflow:hidden;font-size:2rem}
 .thumb img{width:100%;height:100%;object-fit:contain}
 .info{flex:1;min-width:0}
@@ -181,7 +180,7 @@ footer{background:var(--surface);border-top:1px solid var(--line);margin-top:40p
         if(typeof it[i]==='number')prices.push(it[i]);
         else if(typeof it[i]==='string'&&/\.(png|jpe?g|webp|gif)$/i.test(it[i].trim()))img=it[i].trim();
       }
-      var thumb=img?'<img loading="lazy" src="'+esc(img)+'" alt="'+esc(it[1])+'" onerror="this.parentNode.textContent=\''+(icons[cat.image]||'☕')+'\'">':(icons[cat.image]||'☕');
+      var thumb=img?'<img loading="lazy" decoding="async" src="'+esc(img)+'" alt="'+esc(it[1])+'" onerror="this.parentNode.textContent=\''+(icons[cat.image]||'☕')+'\'">':(icons[cat.image]||'☕');
       var labels=prices.length===2?['S','L']:[];
       var ph=prices.map(function(p,i){return '<span class="price">'+p+'<i>EGP'+(labels[i]?' '+labels[i]:'')+'</i></span>'}).join('');
       var key=(it[1]+' '+it[2]).toLowerCase();
@@ -213,7 +212,7 @@ footer{background:var(--surface);border-top:1px solid var(--line);margin-top:40p
         if(en.isIntersecting){
           document.querySelectorAll('.chip').forEach(function(c){
             var on=c.dataset.t===en.target.id;c.classList.toggle('active',on);
-            if(on)c.scrollIntoView({inline:'center',block:'nearest',behavior:'smooth'});
+            if(on){var x=c.offsetLeft-(chips.clientWidth-c.offsetWidth)/2;chips.scrollTo({left:x,behavior:'auto'});}
           });
         }
       });
@@ -223,7 +222,11 @@ footer{background:var(--surface);border-top:1px solid var(--line);margin-top:40p
 
   /* Back to top */
   var top=document.getElementById('top');
-  window.addEventListener('scroll',function(){top.style.display=window.scrollY>600?'block':'none'});
+  var tick=false;
+  window.addEventListener('scroll',function(){
+    if(tick)return;tick=true;
+    requestAnimationFrame(function(){top.style.display=window.scrollY>600?'block':'none';tick=false});
+  },{passive:true});
   top.onclick=function(){window.scrollTo({top:0,behavior:'smooth'})};
 })();
 </script>
