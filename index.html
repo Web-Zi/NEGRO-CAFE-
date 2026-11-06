@@ -1,458 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark" data-lang="both">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NEGRO COFFEE - Menu</title>
-  <style>
-    /* Reset & Base Styles */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#0f0d0c" />
+<title>NEGRO COFFEE - Menu | منيو نيجرو</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf6f1; --surface:#ffffff; --surface2:#f1e9df; --text:#1d1612; --muted:#7a6a5c;
+  --line:#e6dccf; --accent:#b8793a; --accent-ink:#ffffff; --shadow:0 6px 20px rgba(60,40,20,.08);
+  --img-bg:#f4ece2;
+}
+:root[data-theme="dark"]{
+  --bg:#0f0d0c; --surface:#1a1614; --surface2:#25201c; --text:#f4ece4; --muted:#a8998b;
+  --line:#2f2823; --accent:#d9a066; --accent-ink:#1a120b; --shadow:0 6px 20px rgba(0,0,0,.45);
+  --img-bg:#221c18;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:150px}
+body{font-family:'Cairo','Segoe UI',Tahoma,sans-serif;background:var(--bg);color:var(--text);transition:background .25s,color .25s;line-height:1.5}
+.serif{font-family:'Playfair Display','Cairo',serif}
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f7f7f7;
-      color: #333;
-    }
+/* Top bar */
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.bar-row{max-width:1200px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:10px}
+.brand{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
+.brand img{height:42px;width:auto;border-radius:8px;background:#000;padding:2px}
+.brand b{letter-spacing:.14em;font-size:1rem}
+.ctrl{display:flex;gap:8px;align-items:center}
+.seg{display:flex;background:var(--surface2);border-radius:999px;padding:3px;border:1px solid var(--line)}
+.seg button{border:0;background:transparent;color:var(--muted);font:600 .78rem 'Cairo',sans-serif;padding:5px 11px;border-radius:999px;cursor:pointer}
+.seg button.on{background:var(--accent);color:var(--accent-ink)}
+.icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface2);color:var(--text);cursor:pointer;font-size:1rem;display:grid;place-items:center}
+.search-row{max-width:1200px;margin:0 auto;padding:0 16px 8px}
+.search{width:100%;padding:10px 16px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--text);font:500 .95rem 'Cairo',sans-serif;outline:none}
+.search:focus{border-color:var(--accent)}
+.chips{max-width:1200px;margin:0 auto;display:flex;gap:8px;overflow-x:auto;padding:4px 16px 12px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:6px 14px;cursor:pointer;text-align:center;line-height:1.25;font:600 .85rem 'Cairo',sans-serif}
+.chip small{display:block;font-weight:400;font-size:.72rem;color:var(--muted)}
+.chip.active{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chip.active small{color:var(--accent-ink);opacity:.85}
 
-    /* Hero Header Section */
-    .hero-header {
-      width: 100%;
-      background-color: #ffffff;
-      padding: 30px 20px 20px 20px;
-      border-bottom: 1px solid #eaeaea;
-    }
+/* Hero */
+.hero{max-width:1200px;margin:0 auto;padding:28px 16px 8px;text-align:center}
+.hero h1{font-size:clamp(1.8rem,5vw,2.8rem);letter-spacing:.06em}
+.hero p{color:var(--muted);margin-top:4px}
+.hero .ar{font-size:1.1rem}
 
-    .hero-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
+/* Sections */
+main{max-width:1200px;margin:0 auto;padding:8px 16px 20px}
+.cat{margin-top:30px}
+.cat-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:2px solid var(--accent);padding-bottom:6px;margin-bottom:14px}
+.cat-head h2{font-size:1.5rem}
+.cat-head .ar-t{font-size:1.35rem;font-weight:700;color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}
+.card{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:12px;box-shadow:var(--shadow);transition:transform .2s}
+.card:hover{transform:translateY(-2px)}
+.thumb{flex:none;width:92px;height:92px;border-radius:12px;background:var(--img-bg);display:grid;place-items:center;overflow:hidden;font-size:2rem}
+.thumb img{width:100%;height:100%;object-fit:contain}
+.info{flex:1;min-width:0}
+.en{font-weight:700;font-size:1rem;line-height:1.3}
+.ar-n{font-size:.95rem;color:var(--muted);direction:rtl;text-align:start;margin-top:2px}
+.prices{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.price{background:var(--surface2);color:var(--accent);font-weight:800;font-size:.95rem;padding:2px 10px;border-radius:999px;border:1px solid var(--line)}
+.price i{font-style:normal;font-weight:600;font-size:.7rem;color:var(--muted);margin-inline-start:3px}
+.empty{text-align:center;color:var(--muted);padding:40px 0;display:none}
 
-    /* Side Posters */
-    .hero-poster {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+/* Language modes */
+[data-lang="en"] .ar-n,[data-lang="en"] .ar-t,[data-lang="en"] .chip small,[data-lang="en"] .hero .ar{display:none}
+[data-lang="ar"] .en,[data-lang="ar"] .cat-head h2,[data-lang="ar"] .chip span,[data-lang="ar"] .hero .en-h{display:none}
+[data-lang="ar"] .ar-n{color:var(--text);font-weight:700;font-size:1.05rem;margin:0}
+[data-lang="ar"] .ar-t{color:var(--text)}
+[data-lang="ar"] .chip small{font-size:.85rem;color:inherit;font-weight:600}
+[data-lang="ar"] body,[data-lang="ar"] main{direction:rtl}
+[data-lang="ar"] .cat-head{flex-direction:row}
 
-    .hero-poster img {
-      max-width: 220px;
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-      transition: transform 0.3s ease, opacity 0.3s ease;
-    }
-
-    .hero-poster img:hover {
-      transform: scale(1.03);
-    }
-
-    /* Center Logo */
-    .hero-logo-wrapper {
-      flex: 1.2;
-      text-align: center;
-    }
-
-    .hero-logo {
-      max-width: 250px;
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
-
-    /* Category Nav Container */
-    .category-nav-wrapper {
-      background-color: #ffffff;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    }
-
-    .category-nav {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      overflow-x: auto;
-      padding: 15px 20px;
-      gap: 12px;
-      scrollbar-width: thin;
-    }
-
-    .category-nav::-webkit-scrollbar {
-      height: 4px;
-    }
-
-    .category-nav::-webkit-scrollbar-thumb {
-      background-color: #ccc;
-      border-radius: 4px;
-    }
-
-    .category-btn {
-      background-color: #f0f0f0;
-      border: 1px solid #ddd;
-      border-radius: 20px;
-      padding: 8px 18px;
-      cursor: pointer;
-      white-space: nowrap;
-      font-weight: 600;
-      transition: all 0.2s ease;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      line-height: 1.2;
-    }
-
-    .category-btn span.ar-sub {
-      font-size: 0.8em;
-      font-weight: normal;
-      color: #666;
-      margin-top: 2px;
-    }
-
-    .category-btn:hover,
-    .category-btn.active {
-      background-color: #000000;
-      color: #ffffff;
-      border-color: #000000;
-    }
-
-    .category-btn:hover span.ar-sub,
-    .category-btn.active span.ar-sub {
-      color: #ccc;
-    }
-
-    /* Menu Grid Container */
-    .menu-container {
-      max-width: 1200px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-
-    .category-section {
-      margin-bottom: 40px;
-    }
-
-    .category-title {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #000;
-      padding-bottom: 5px;
-      display: flex;
-      align-items: baseline;
-      gap: 10px;
-    }
-
-    .category-title .ar-title {
-      font-size: 1.3rem;
-      color: #555;
-      font-weight: normal;
-    }
-
-    .items-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .item-card {
-      background-color: #ffffff;
-      border-radius: 12px;
-      padding: 15px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      transition: transform 0.2s ease;
-    }
-
-    .item-card:hover {
-      transform: translateY(-3px);
-    }
-
-    .item-image {
-      width: 120px;
-      height: 120px;
-      object-fit: contain;
-      margin-bottom: 12px;
-    }
-
-    .item-name-en {
-      font-weight: 700;
-      font-size: 1.1rem;
-      color: #111;
-    }
-
-    .item-name-ar {
-      font-size: 0.95rem;
-      color: #666;
-      margin-top: 2px;
-      direction: rtl;
-    }
-
-    .item-prices {
-      margin-top: 10px;
-      font-weight: bold;
-      color: #000;
-      font-size: 1.05rem;
-    }
-
-    /* Footer Styles */
-    .site-footer {
-      background-color: #111111;
-      color: #ffffff;
-      padding: 40px 20px;
-      margin-top: 50px;
-      border-top: 3px solid #333;
-    }
-
-    .footer-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 30px;
-    }
-
-    .footer-left {
-      display: flex;
-      align-items: center;
-    }
-
-    .footer-logo {
-      max-width: 140px;
-      height: auto;
-      object-fit: contain;
-    }
-
-    .footer-right {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      text-align: right;
-    }
-
-    .footer-item {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 10px;
-      font-size: 0.95rem;
-    }
-
-    .footer-item a {
-      color: #ffffff;
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-
-    .footer-item a:hover {
-      color: #ccc;
-      text-decoration: underline;
-    }
-
-    .footer-icon {
-      width: 20px;
-      height: 20px;
-      fill: currentColor;
-    }
-
-    /* Responsive Mobile View */
-    @media (max-width: 768px) {
-      .hero-container {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-      }
-
-      .hero-logo-wrapper {
-        order: 1;
-      }
-
-      .hero-poster {
-        display: none;
-      }
-
-      .hero-logo {
-        max-width: 180px;
-      }
-
-      .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      .footer-right {
-        text-align: center;
-      }
-
-      .footer-item {
-        justify-content: center;
-      }
-    }
-  </style>
+/* Footer */
+footer{background:var(--surface);border-top:1px solid var(--line);margin-top:40px;padding:30px 16px}
+.foot{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.foot img{height:60px;border-radius:10px;background:#000;padding:4px}
+.links{display:flex;flex-direction:column;gap:8px;font-size:.95rem}
+.links a{color:var(--text);text-decoration:none}
+.links a:hover{color:var(--accent)}
+.top{position:fixed;inset-inline-end:16px;bottom:16px;width:44px;height:44px;border-radius:50%;border:0;background:var(--accent);color:var(--accent-ink);font-size:1.2rem;cursor:pointer;box-shadow:var(--shadow);display:none;z-index:60}
+@media(max-width:520px){
+  .brand b{display:none}
+  .grid{grid-template-columns:1fr}
+  .thumb{width:80px;height:80px}
+  .foot{flex-direction:column;text-align:center}
+}
+</style>
 </head>
 <body>
 
-  <!-- Hero Header Section -->
-  <header class="hero-header">
-    <div class="hero-container">
-      <!-- Left Poster -->
-      <div class="hero-poster poster-left">
-        <img src="assets/poster 1.png" alt="Cafe Vibe 1" />
+<header class="topbar">
+  <div class="bar-row">
+    <div class="brand"><img src="assets/Logo.png" alt="NEGRO COFFEE" onerror="this.style.display='none'"><b class="serif">NEGRO COFFEE</b></div>
+    <div class="ctrl">
+      <div class="seg" id="langSeg" role="group" aria-label="Language">
+        <button data-l="en">EN</button><button data-l="both" class="on">EN|ع</button><button data-l="ar">ع</button>
       </div>
-
-      <!-- Center Logo -->
-      <div class="hero-logo-wrapper">
-        <img src="assets/Logo.png" alt="NEGRO COFFEE" class="hero-logo" />
-      </div>
-
-      <!-- Right Poster -->
-      <div class="hero-poster poster-right">
-        <img src="assets/poster 2.png" alt="Cafe Vibe 2" />
-      </div>
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">☀</button>
     </div>
-  </header>
-
-  <!-- Navigation Bar for Categories -->
-  <div class="category-nav-wrapper">
-    <nav class="category-nav" id="categoryNav"></nav>
   </div>
+  <div class="search-row"><input class="search" id="search" type="search" placeholder="Search menu · ابحث في المنيو" autocomplete="off"></div>
+  <nav class="chips" id="chips"></nav>
+</header>
 
-  <!-- Main Menu Display Area -->
-  <main class="menu-container" id="menuContainer"></main>
+<section class="hero">
+  <h1 class="serif en-h">Our Menu</h1>
+  <p class="ar">قائمة المشروبات والحلويات</p>
+</section>
 
-  <!-- Footer Section -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <!-- Left: Logo -->
-      <div class="footer-left">
-        <img src="assets/Logo.png" alt="NEGRO COFFEE" class="footer-logo" />
-      </div>
+<main id="menu"></main>
+<p class="empty" id="empty">No results · لا توجد نتائج</p>
 
-      <!-- Right: Contact, Socials, Location -->
-      <div class="footer-right">
-        <div class="footer-item">
-          <a href="tel:01507623027">01507623027</a>
-          <svg class="footer-icon" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-        </div>
-
-        <div class="footer-item">
-          <a href="https://www.instagram.com/negro__coffee?stkn=eHpnYzZqdGJ3bXN1" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <svg class="footer-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-        </div>
-
-        <div class="footer-item">
-          <a href="https://www.facebook.com/share/18LSA3NdWD/" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <svg class="footer-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-        </div>
-
-        <div class="footer-item">
-          <span>شارع احمد عرابي و حديقه فريال بورسعيد</span>
-          <svg class="footer-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-        </div>
-      </div>
+<footer>
+  <div class="foot">
+    <img src="assets/Logo.png" alt="NEGRO COFFEE" onerror="this.style.display='none'">
+    <div class="links">
+      <a href="tel:01507623027">📞 01507623027</a>
+      <a href="https://www.instagram.com/negro__coffee?stkn=eHpnYzZqdGJ3bXN1" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
+      <a href="https://www.facebook.com/share/18LSA3NdWD/" target="_blank" rel="noopener noreferrer">👍 Facebook</a>
+      <span>📍 شارع احمد عرابي و حديقه فريال بورسعيد</span>
     </div>
-  </footer>
+  </div>
+</footer>
+<button class="top" id="top" aria-label="Back to top">↑</button>
 
-  <!-- Load Menu Data -->
-  <script src="assets/menu-data.js"></script>
+<script src="assets/menu-data.js"></script>
+<script>
+(function(){
+  var root=document.documentElement, KEY_T='negro-theme', KEY_L='negro-lang';
+  function store(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+  function load(k){try{return localStorage.getItem(k)}catch(e){return null}}
 
-  <!-- Page Logic -->
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const categoryNav = document.getElementById("categoryNav");
-      const menuContainer = document.getElementById("menuContainer");
+  /* Theme */
+  var themeBtn=document.getElementById('themeBtn');
+  function setTheme(t){root.setAttribute('data-theme',t);themeBtn.textContent=t==='dark'?'☀':'☾';
+    document.querySelector('meta[name=theme-color]').content=t==='dark'?'#0f0d0c':'#faf6f1'}
+  var saved=load(KEY_T);
+  setTheme(saved||(window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'));
+  themeBtn.onclick=function(){var t=root.getAttribute('data-theme')==='dark'?'light':'dark';setTheme(t);store(KEY_T,t)};
 
-      if (!window.NEGRO_MENU) {
-        console.error("Menu data not found!");
-        return;
+  /* Language */
+  var segBtns=document.querySelectorAll('#langSeg button');
+  function setLang(l){root.setAttribute('data-lang',l);
+    root.setAttribute('dir',l==='ar'?'rtl':'ltr');
+    segBtns.forEach(function(b){b.classList.toggle('on',b.dataset.l===l)});}
+  segBtns.forEach(function(b){b.onclick=function(){setLang(b.dataset.l);store(KEY_L,b.dataset.l)}});
+  setLang(load(KEY_L)||'both');
+
+  /* Data */
+  var data=window.NEGRO_MENU||[];
+  var chips=document.getElementById('chips'), menu=document.getElementById('menu');
+  if(!data.length){
+    menu.innerHTML='<div style="text-align:center;padding:50px 16px;line-height:2"><b>Menu data not found · لم يتم العثور على بيانات المنيو</b><br>Put this file next to the <code>assets</code> folder (it must contain <code>menu-data.js</code>).<br>ضع هذا الملف بجانب مجلد <code>assets</code> الذي يحتوي على <code>menu-data.js</code></div>';
+  }
+  var icons={hot:'☕',cold:'🧊',dessert:'🍰'};
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function slug(s,i){return 'cat-'+i}
+
+  data.forEach(function(cat,ci){
+    var cid=slug(cat.id,ci);
+    var chip=document.createElement('button');
+    chip.className='chip';chip.dataset.t=cid;
+    chip.innerHTML='<span>'+esc(cat.en)+'</span><small>'+esc(cat.ar)+'</small>';
+    chip.onclick=function(){var el=document.getElementById(cid);if(el)el.scrollIntoView({behavior:'smooth'})};
+    chips.appendChild(chip);
+
+    var sec=document.createElement('section');sec.className='cat';sec.id=cid;
+    var html='<div class="cat-head"><h2 class="serif">'+esc(cat.en)+'</h2><span class="ar-t">'+esc(cat.ar)+'</span></div><div class="grid">';
+    cat.items.forEach(function(it){
+      var prices=[],img='';
+      for(var i=3;i<it.length;i++){
+        if(typeof it[i]==='number')prices.push(it[i]);
+        else if(typeof it[i]==='string'&&/\.(png|jpe?g|webp|gif)$/i.test(it[i].trim()))img=it[i].trim();
       }
-
-      // Render Navigation Buttons
-      window.NEGRO_MENU.forEach((cat, index) => {
-        const btn = document.createElement("button");
-        btn.className = `category-btn ${index === 0 ? 'active' : ''}`;
-        btn.innerHTML = `
-          <span>${cat.en}</span>
-          <span class="ar-sub">${cat.ar}</span>
-        `;
-        btn.onclick = () => {
-          document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          const element = document.getElementById(cat.id);
-          if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-          }
-        };
-        categoryNav.appendChild(btn);
-      });
-
-      // Render Menu Items
-      window.NEGRO_MENU.forEach((cat) => {
-        const section = document.createElement("section");
-        section.className = "category-section";
-        section.id = cat.id;
-
-        const title = document.createElement("h2");
-        title.className = "category-title";
-        title.innerHTML = `${cat.en} <span class="ar-title">(${cat.ar})</span>`;
-        section.appendChild(title);
-
-        const grid = document.createElement("div");
-        grid.className = "items-grid";
-
-        cat.items.forEach((item) => {
-          // Structure expected from menu-data.js:
-          // [id, English Name, Arabic Name, price1, (optional price2/image), ...]
-          const id = item[0];
-          const nameEn = item[1];
-          const nameAr = item[2];
-          
-          let prices = [];
-          let imageSrc = "";
-
-          // Extract prices and image path dynamically based on item array length
-          for (let i = 3; i < item.length; i++) {
-            if (typeof item[i] === "number") {
-              prices.push(item[i]);
-            } else if (typeof item[i] === "string" && item[i].includes("assets/")) {
-              imageSrc = item[i];
-            }
-          }
-
-          const card = document.createElement("div");
-          card.className = "item-card";
-
-          const imgHtml = imageSrc ? `<img src="${imageSrc}" alt="${nameEn}" class="item-image" />` : '';
-          const priceText = prices.length > 1 ? `${prices[0]} EGP / ${prices[1]} EGP` : `${prices[0]} EGP`;
-
-          card.innerHTML = `
-            ${imgHtml}
-            <div class="item-name-en">${nameEn}</div>
-            <div class="item-name-ar">${nameAr}</div>
-            <div class="item-prices">${priceText}</div>
-          `;
-
-          grid.appendChild(card);
-        });
-
-        section.appendChild(grid);
-        menuContainer.appendChild(section);
-      });
+      var thumb=img?'<img loading="lazy" src="'+esc(img)+'" alt="'+esc(it[1])+'" onerror="this.parentNode.textContent=\''+(icons[cat.image]||'☕')+'\'">':(icons[cat.image]||'☕');
+      var labels=prices.length===2?['S','L']:[];
+      var ph=prices.map(function(p,i){return '<span class="price">'+p+'<i>EGP'+(labels[i]?' '+labels[i]:'')+'</i></span>'}).join('');
+      var key=(it[1]+' '+it[2]).toLowerCase();
+      html+='<article class="card" data-k="'+esc(key)+'"><div class="thumb">'+thumb+'</div><div class="info"><div class="en">'+esc(it[1])+'</div><div class="ar-n">'+esc((it[2]||'').trim())+'</div><div class="prices">'+ph+'</div></div></article>';
     });
-  </script>
+    sec.innerHTML=html+'</div>';
+    menu.appendChild(sec);
+  });
+
+  /* Search */
+  var empty=document.getElementById('empty');
+  document.getElementById('search').addEventListener('input',function(e){
+    var q=e.target.value.trim().toLowerCase(),any=false;
+    document.querySelectorAll('.cat').forEach(function(sec){
+      var shown=0;
+      sec.querySelectorAll('.card').forEach(function(c){
+        var m=!q||c.dataset.k.indexOf(q)>-1;c.style.display=m?'':'none';if(m)shown++;
+      });
+      sec.style.display=shown?'':'none';if(shown)any=true;
+    });
+    empty.style.display=any?'none':'block';
+  });
+
+  /* Active chip on scroll */
+  var secs=document.querySelectorAll('.cat');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if(en.isIntersecting){
+          document.querySelectorAll('.chip').forEach(function(c){
+            var on=c.dataset.t===en.target.id;c.classList.toggle('active',on);
+            if(on)c.scrollIntoView({inline:'center',block:'nearest',behavior:'smooth'});
+          });
+        }
+      });
+    },{rootMargin:'-160px 0px -65% 0px'});
+    secs.forEach(function(s){io.observe(s)});
+  }
+
+  /* Back to top */
+  var top=document.getElementById('top');
+  window.addEventListener('scroll',function(){top.style.display=window.scrollY>600?'block':'none'});
+  top.onclick=function(){window.scrollTo({top:0,behavior:'smooth'})};
+})();
+</script>
 </body>
 </html>
